@@ -1,0 +1,28 @@
+{
+  "name": "flashback",
+  "version": "0.0.0",
+  "description": "Flashback will do npm install as if it were taking place on a given date.  All semantically versioned dependencies will be installed as if it were taking place on that date.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stierma1/npm-flashback.git"
+  },
+  "keywords": [
+    "npm",
+    "install",
+    "semver"
+  ],
+  "author": "Mark Stier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stierma1/npm-flashback/issues"
+  },
+  "homepage": "https://github.com/stierma1/npm-flashback",
+  "dependencies": {
+    "bluebird": "^2.2.2",
+    "semver": "^2.3.1"
+  }
+}
