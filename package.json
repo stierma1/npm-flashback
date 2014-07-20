@@ -1,6 +1,6 @@
 {
   "name": "flashback",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "description": "Flashback will do npm install as if it were taking place on a given date.  All semantically versioned dependencies will be installed as if it were taking place on that date.",
   "main": "index.js",
   "scripts": {

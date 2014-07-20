@@ -4,7 +4,7 @@ var path = require('path');
 var Promise = require('bluebird');
 
 var args = process.argv.reduce(function(prev, arg, idx){
-  if(idx === 1){
+  if(idx === 2){
     prev['date'] = new Date(arg);
   } else {
     prev['args'].push(arg)
